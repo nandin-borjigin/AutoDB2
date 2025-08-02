@@ -1,5 +1,5 @@
 -- luacheck: globals AutoDB AutoDB_AutoexecCommandsSet SLASH_AUTODB1
-AutoDB_AutoexecCommandsSet = AutoDB_AutoexecCommandsSet or {["/db chests"] = true, ["/db rares"] = true}
+AutoDB_AutoexecCommandsSet = AutoDB_AutoexecCommandsSet or {["/db track chests"] = true, ["/db track rares"] = true}
 
 AutoDB = CreateFrame("Frame")
 AutoDB.version = "2.0"
@@ -120,3 +120,4 @@ end)
 
 SLASH_AUTODB1 = "/autodb"
 SlashCmdList["AUTODB"] = DispatchCommand
+
